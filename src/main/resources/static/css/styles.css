@@ -1,0 +1,13 @@
+body { background: linear-gradient(to right, #f7971e, #ffd200); min-height: 100vh; }
+.btn { transition: 0.2s; }
+.btn:hover { transform: scale(1.04); }
+.card { transition: 0.2s; }
+.stat-card:hover { transform: scale(1.02); }
+#loadingSpinner { display: none; }
+th.sortable { cursor: pointer; user-select: none; }
+
+/* Dark mode */
+body.dark-mode { background: #121212 !important; color: #e6e6e6; }
+body.dark-mode .card { background: #1e1e1e !important; color: #e6e6e6 !important; }
+body.dark-mode .form-control, body.dark-mode .form-select { background: #2a2a2a; color: #e6e6e6; border-color: #444; }
+body.dark-mode .table { --bs-table-bg: #1e1e1e; --bs-table-striped-bg: #252525; --bs-table-color: #e6e6e6; --bs-table-striped-color: #e6e6e6; border-color: #444; }
